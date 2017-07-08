@@ -3,6 +3,14 @@ ROS LEAP MOTION
 
 Leap Motion ROS integration
 
+Leap Driver Installation
+=============
+
+* [Download](https://developer.leapmotion.com/sdk/v2) driver and SDK 
+* Install driver: `sudo dpkg --install name_x64.deb`
+* Solve installation [error](https://community.leapmotion.com/t/tip-ubuntu-systemd-and-leapd/2118)
+* Run leap: `sudo leapd`
+* Visualize leap: `LeapControlPanel`
 
 REQUIREMENTS
 ============
